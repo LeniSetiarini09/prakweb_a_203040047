@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap");
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+tr {
+  font-family: 'Reem Kufi Ink', sans-serif;
+}
