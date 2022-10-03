@@ -37,7 +37,7 @@ if (isset($_POST["cari"])) {
                 <h1 class="display-3 text-center fw-bold ">Daftar Jenis Buku</h1>
                 <a href="tambah.php">Tambah Data Buku</a>
                 <br><br>
-                <table class="table table-bordered table-striped table-hover text-center bg-info">
+                <table class="table table-bordered table-striped table-hover text-center bg-info" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
                     <tr>
                         <th>No</th>
                         <th>Nama Buku</th>
@@ -51,7 +51,8 @@ if (isset($_POST["cari"])) {
                             <td><?= $i++; ?></td>
                             <td><?= $bk['nama_buku']; ?></td>
                             <td><?= $bk['penulis']; ?></td>
-                            <td><img src="assets/<?= $bk['gambar'] ?>" width="100"></td>
+                            <td><img src=" assets/<?= $bk['gambar'] ?>" width="100">
+                            </td>
                             <td>
                                 <a href="detail.php?id=<?= $bk['id']; ?>">Lihat detail</a>
                             </td>
