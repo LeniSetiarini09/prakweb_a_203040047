@@ -21,10 +21,10 @@ $buku = query("SELECT * FROM buku");
 
 <body>
     <div class="container ">
-        <div class="card mt-5 bg-dark bg-gradient text-light">
+        <div class="card mt-5 bg-dark bg-secondary text-light">
             <div class="card-body text-light">
                 <h1 class="display-3 text-center fw-bold ">Daftar Jenis Buku</h1>
-                <a href="tambah.php">Tambah Data Mahasiswa</a>
+                <a href="tambah.php">Tambah Data Buku</a>
                 <br><br>
                 <table class="table table-bordered table-striped table-hover text-center bg-info">
                     <tr>
